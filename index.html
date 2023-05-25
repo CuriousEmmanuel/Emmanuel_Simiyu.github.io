@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Portfo<span>lio</span></h1>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="text">
+      <p>Hello, I am</p>
+      <h1 data-aos="slide-right">Emmanuel Simiyu</h1>
+      <p>And I am <span id="ani">Front End Developer</span></p>
+      <button class="cBtn">Hire me</button>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="aboutInfo">
+      <h1>About</h1>
+      <span>Who i am?</span>
+    </div>
+
+    <div class="aboutRow">
+
+      <div class="aboutImg" data-aos="slide-right">
+        <img src="images/about.jpg" alt="">
+      </div>
+
+      <div class="aboutText" data-aos="slide-left">
+        <p class="about-title">Hello, I am Emmanuel Simiyu<br> I am a Web designer & Developer</p>
+        <p class="aboutDisc">A young Developer with alot of enthusiasm in programming.My skills are based on web designing, web developing, user interface(UI) and user experience(UX).
+          <br>I also develop UI and UX for android appications.
+
+        </p>
+        <button class="cBtn">Download CV</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skill">
+    <div class="aboutInfo">
+      <h1 style="color:white;">Skills</h1>
+      <span>Who i am?</span>
+    </div>
+
+    <div class="skillRow" data-aos="fade-up">
+
+      <div class="skillText">
+        <p>My first languages to learn was web based languages which include HTML, CSS and JavaScript.
+        I am familiar with HTML and CSS for one year and Javascript for.....  </i></b></p>
+        <button class="cBtn">Read more</button>
+      </div>
+
+      <div class="skillProgress">
+
+        <div class="ProgressBox">
+          <p>HTML</p>
+          <progress value="95" max="100"></progress>
+          <span style="color: #fff;">95%</span>
+        </div>
+        <div class="ProgressBox">
+          <p>CSS</p>
+          <progress value="85" max="100"></progress>
+          <span style="color: #fff;">85%</span>
+        </div>
+        <div class="ProgressBox">
+          <p>JAVASCRIPT</p>
+          <progress value="50" max="100"></progress>
+          <span style="color: #fff;">50%</span>
+        </div>
+        <div class="ProgressBox">
+          <p>JQUERY</p>
+          <progress value="55" max="100"></progress>
+          <span style="color: #fff;">55%</span>
+        </div>
+        <div class="ProgressBox">
+          <p>BOOTSTRAP</p>
+          <progress value="60" max="100"></progress>
+          <span style="color:#fff;">60%</span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section id="services">
+    <div class="aboutInfo">
+      <h1>Services</h1>
+      <span>What I Provide?</span>
+    </div>
+    <div class="serviceRow" data-aos="flip-up">
+      <div class="serviceBox">
+        <img src="images/b2.png" alt="">
+        <h2>Web Designer</h2>
+        <p>Whith an aid of different illustrators and editors I am good at designing and putting the idea into an actual structure/image</p>
+
+
+      </div>
+
+      <div class="serviceBox">
+        <img src="images/b2.png" alt="">
+        <h2>Web Developer</h2>
+        <p>After the structure/image is lay down the real construction starts where I use the required language to actually develop the web</p>
+
+      </div>
+
+      <div class="serviceBox">
+        <img src="images/b2.png" alt="">
+        <h2>App Developer</h2>
+        <p>I an capable of designing developing the user interface and user experience in android applications.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section id="contact">
+    <div class="aboutInfo">
+      <h1 style="color:#fff;">Get in Touch</h1>
+      <span style="color:#000;">I am Available</span>
+    </div>
+
+    <div class="contactRow">
+
+      <div class="contactImg">
+        <img src="images/b3.png" data-aos="slide-right">
+      </div>
+
+      <div class="contactForm" data-aos="slide-left">
+        <form action="">
+          <h1>Contact with me </h1>
+          <input type="text" name="name" placeholder="Name"><br>
+          <input type="email" name="email" placeholder="Email"><br>
+          <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea><br>
+          <!-- <button type="submit">Submit</button> 
+            
+          <button> type="submit" value="SUBMIT" <a href="mailto:curiouswrld1@gmail.com"></button> -->
+
+
+            <form method="post" action="mailto:curiouswrld1@gmail.com" >
+            <input type="submit" value="Send Email" /> 
+            </form>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footerDev">
+      <p>Development By</p>
+      <h1>Emmanuel Simiyu</h1>
+    </div>
+    <div class="footerIcon">
+      <img src="images/icon.png" alt="">
+    </div>
+  </section>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+offset : 220,
+duration : 1000,
+    });
+  </script>
+</body>
+
+</html>
